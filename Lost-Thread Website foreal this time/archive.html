@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Lost/Thread Archive | All Episodes (Lost Thread)</title>
+    <meta name="description" content="The complete episode archive for Lost/Thread, including Prologue, The Space Between, and The Breaking Point. All 11 episodes available.">
+    <link rel="canonical" href="https://www.lost-thread.ca/archive.html">
+
+    <link rel="alternate" type="application/rss+xml" title="Lost/Thread RSS Feed" href="https://feeds.buzzsprout.com/2518633.rss">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.lost-thread.ca/archive.html">
+    <meta property="og:title" content="Lost/Thread | Complete Episode Archive">
+    <meta property="og:description" content="Binge the complete immersive horror story. All episodes from the Prologue to The Breaking Point available now.">
+    <meta property="og:image" content="https://www.lost-thread.ca/lost_thread_cover_square.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@weyoutstudio"> 
+    <meta name="twitter:title" content="Lost/Thread: Complete Archive">
+    <meta name="twitter:image" content="https://www.lost-thread.ca/lost_thread_cover_square.jpg">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Lost/Thread Series Premiere",
+          "url": "https://www.lost-thread.ca/archive.html#premiere"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Prologue: The First Message",
+          "url": "https://www.lost-thread.ca/archive.html#prologue"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Episode 1: Outsider",
+          "url": "https://www.lost-thread.ca/archive.html#ep1"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Episode 2: Crossing Over",
+          "url": "https://www.lost-thread.ca/archive.html#ep2"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Episode 3: The Space Between",
+          "url": "https://www.lost-thread.ca/archive.html#ep3"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Episode 4: The Things We Hear",
+          "url": "https://www.lost-thread.ca/archive.html#ep4"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Episode 5: Precious Little Things",
+          "url": "https://www.lost-thread.ca/archive.html#ep5"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Episode 6: Shadows in the Fire",
+          "url": "https://www.lost-thread.ca/archive.html#ep6"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Episode 7: Night Special",
+          "url": "https://www.lost-thread.ca/archive.html#ep7"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Episode 8: The Path We Burn",
+          "url": "https://www.lost-thread.ca/archive.html#ep8"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Episode 9: Fiver Pitch",
+          "url": "https://www.lost-thread.ca/archive.html#ep9"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Episode 10: The Breaking Point",
+          "url": "https://www.lost-thread.ca/archive.html#ep10"
+        }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --bg-deep: #050810;
+            --bg-lighter: #0d1424;
+            --text-main: #e0e0e0;
+            --text-muted: #8a9bb5;
+            --accent-color: #ffb700;
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-main);
+            font-family: 'Share Tech Mono', monospace;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        
+        .header-top {
+            display: flex; justify-content: space-between; align-items: center;
+            border-bottom: 2px solid var(--accent-color); padding-bottom: 15px; margin-bottom: 30px;
+        }
+
+        h1 {
+            font-family: 'Special Elite', serif;
+            font-size: 2.5rem;
+            color: var(--text-main);
+            margin: 0;
+            text-shadow: 0 0 10px rgba(255, 183, 0, 0.1);
+        }
+
+        .back-link {
+            color: var(--text-muted); text-decoration: none; font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+        .back-link:hover { color: var(--accent-color); }
+
+        /* Archive Entry Styles */
+        .episode-entry {
+            background-color: var(--bg-lighter);
+            padding: 20px;
+            margin-bottom: 25px;
+            border-left: 3px solid var(--text-muted);
+            transition: border-left 0.3s, background-color 0.3s;
+            /* Added relative positioning to handle anchor jumps nicely if needed later */
+            position: relative;
+        }
+
+        .episode-entry:hover {
+            border-left: 3px solid var(--accent-color);
+            background-color: rgba(255, 183, 0, 0.05);
+        }
+
+        /* CHANGED: This is now targeting the H2 element specifically */
+        h2.episode-title-text {
+            font-family: 'Special Elite', serif;
+            color: var(--text-main);
+            text-decoration: none;
+            font-size: 1.4rem;
+            display: block;
+            margin: 0 0 5px 0; /* Clear default H2 margins */
+        }
+
+        .episode-summary {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin: 10px 0 15px 0;
+        }
+        
+        /* Styles for the Buzzsprout player within the archive */
+        .archive-player {
+            width: 100%;
+            max-width: 400px;
+            margin: 15px 0 0 0;
+            border-radius: 6px;
+            overflow: hidden;
+            display: block;
+        }
+        
+        .archive-player div, .archive-player script {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="header-top">
+            <h1>Episode Archive</h1>
+            <a href="index.html" class="back-link"><i class="fa-solid fa-chevron-left"></i> Back to Series Hub</a>
+        </div>
+
+        <p style="color: var(--text-muted); margin-bottom: 40px;">
+            The complete, canonical list of all episodes from the Prologue through The Breaking Point. 
+        </p>
+
+        <div class="archive-list">
+            
+            <div id="premiere" class="episode-entry">
+                <h2 class="episode-title-text">Lost/Thread Series Premiere (Prologue + Ep. 1)</h2>
+                <p class="episode-summary">
+                    A tight-knit group of college friends sets out to document the unexplained, following cryptic online posts that hint at hidden truths. Their curiosity drives them to perform a ritual—one they believe will open the door to something bigger. What starts as a calculated experiment quickly spirals into something far more dangerous.
+                </p>
+                <div class="archive-player">
+                    <div id="buzzsprout-player-17489377"></div><script src="https://www.buzzsprout.com/2518633/episodes/17489377-lost-thread-series-premiere.js?container_id=buzzsprout-player-17489377&player=small" type="text/javascript" charset="utf-8"></script>
+                </div>
+            </div>
+
+            <div id="prologue" class="episode-entry">
+                <h2 class="episode-title-text">Prologue: The First Message</h2>
+                <p class="episode-summary">
+                    John promised he was done chasing the unexplainable. But when a cryptic email from an old friend arrives, attached with recordings too strange to ignore, he finds himself drawn back into the mystery that once consumed his life.
+                </p>
+                <div class="archive-player">
+                    <div id="buzzsprout-player-17489376"></div><script src="https://www.buzzsprout.com/2518633/episodes/17489376-prolouge-the-first-message.js?container_id=buzzsprout-player-17489376&player=small" type="text/javascript" charset="utf-8"></script>
+                </div>
+            </div>
+
+            <div id="ep1" class="episode-entry">
+                <h2 class="episode-title-text">Episode 1: Outsider</h2>
+                <p class="episode-summary">
+                    Rue Asfaw reunites with her childhood friend James, expecting a quiet visit. Instead, she finds herself surrounded by strangers, all preparing for a trip no one will fully explain. Tensions surface quickly as Rue senses something deeper beneath the surface, and James isn’t telling her everything.
+                </p>
+                <div class="archive-player">
+                    <div id="buzzsprout-player-17489375"></div><script src="https://www.buzzsprout.com/2518633/episodes/17489375-episode-1-outsider-lost-thread-a-supernatural-thriller.js?container_id=buzzsprout-player-17489375&player=small" type="text/javascript" charset="utf-8"></script>
+                </div>
+            </div>
+            
+            <div id="ep2" class="episode-entry">
+                <h2 class="episode-title-text">Episode 2: Crossing Over</h2>
+                <p class="episode-summary">
+                    The group sets out to perform the ritual. At first conversation is light and casual, but just before everything starts, James gets serious.
+                </p>
+                <div class="archive-player">
+                    <div id="buzzsprout-player-17489302"></div><script src="https://www.buzzsprout.com/2518633/episodes/17489302-episode-2-crossing-over.js?container_id=buzzsprout-player-17489302&player=small" type="text/javascript" charset="utf-8"></script>
+                </div>
+            </div>
+            
+            <div id="ep3" class="episode-entry">
+                <h2 class="episode-title-text">Episode 3: The Space Between</h2>
+                <p class="episode-summary">
+                    The ritual worked… but no one knows what that means. Still dazed, the group tries to pull themselves together as the weight of what they’ve started begins to settle in. Rue is the most shaken.
+                </p>
+                <div class="archive-player">
+                    <div id="buzzsprout-player-17489301"></div><script src="https://www.buzzsprout.com/2518633/episodes/17489301-episode-3-the-space-between.js?container_id=buzzsprout-player-17489301&player=small" type="text/javascript" charset="utf-8"></script>
+                </div>
+            </div>
+
+            <div id="ep4" class="episode-entry">
+                <h2 class="episode-title-text">Episode 4: The Things We Hear</h2>
+                <p class="episode-summary">
+                    The group wakes to quiet calm, trying to convince themselves things feel normal. But Rue knows better. Something changed last night. The fog gets closer, and something starts dragging itself through the trees, watching… waiting.
+                </p>
+                <div class="archive-player">
+                    <div id="buzzsprout-player-17489442"></div><script src="https://www.buzzsprout.com/2518633/episodes/17489442-episode-4-the-things-we-hear.js?container_id=buzzsprout-player-17489442&player=small" type="text/javascript" charset="utf-8"></script>
+                </div>
+            </div>
+
+            <div id="ep5" class="episode-entry">
+                <h2 class="episode-title-text">Episode 5: Precious Little Things</h2>
+                <p class="episode-summary">
+                    Stranded and out of gas, the group encounters a mysterious gas station and its cryptic clerk. They soon learn that getting back on the road might require more than just fuel, and the journey ahead is far more dangerous than they imagined.
+                </p>
+                <div class="archive-player">
+                    <div id="buzzsprout-player-17562164"></div><script src="https://www.buzzsprout.com/2518633/episodes/17562164-episode-5-precious-little-things.js?container_id=buzzsprout-player-17562164&player=small" type="text/javascript" charset="utf-8"></script>
+                </div>
+            </div>
+
+            <div id="ep6" class="episode-entry">
+                <h2 class="episode-title-text">Episode 6: Shadows in the Fire</h2>
+                <p class="episode-summary">
+                    A reckless act of defiance at the gas station unleashes a terrifying, unseen predator that stalks the group. The entity invades their minds, using their own voices and deepest fears as weapons, resulting in a devastating encounter that will cost the group dearly.
+                </p>
+                <div class="archive-player">
+                    <div id="buzzsprout-player-17635853"></div><script src="https://www.buzzsprout.com/2518633/episodes/17635853-episode-6-shadows-in-the-fire.js?container_id=buzzsprout-player-17635853&player=small" type="text/javascript" charset="utf-8"></script>
+                </div>
+            </div>
+
+            <div id="ep7" class="episode-entry">
+                <h2 class="episode-title-text">Episode 7: Night Special - The Weight of Knowing</h2>
+                <p class="episode-summary">
+                    The late shift at a diner is usually quiet, but for Priya, something feels off. When a mysterious woman arrives, Priya is left with a chilling realization that the world is not as solid as it seems.
+                </p>
+                <div class="archive-player">
+                    <div id="buzzsprout-player-17716170"></div><script src="https://www.buzzsprout.com/2518633/episodes/17716170-episode-7-night-special-the-weight-of-knowing.js?container_id=buzzsprout-player-17716170&player=small" type="text/javascript" charset="utf-8"></script>
+                </div>
+            </div>
+            
+            <div id="ep8" class="episode-entry">
+                <h2 class="episode-title-text">Episode 8: The Path We Burn</h2>
+                <p class="episode-summary">
+                    Stranded and mourning a devastating loss, the shared trauma tears the group apart. As they try to salvage what's left, fear, grief, and anger finally boil over, pushing one of them to their breaking point.
+                </p>
+                <div class="archive-player">
+                    <div id="buzzsprout-player-18110576"></div><script src="https://www.buzzsprout.com/2518633/episodes/18110576-episode-8-the-path-we-burn.js?container_id=buzzsprout-player-18110576&player=small" type="text/javascript" charset="utf-8"></script>
+                </div>
+            </div>
+
+            <div id="ep9" class="episode-entry">
+                <h2 class="episode-title-text">Episode 9: Fiver Pitch</h2>
+                <p class="episode-summary">
+                    Exhausted, the team pushes on through a dangerous storm, forcing them to take shelter at the Second Well Inn—a place that feels warm and welcoming, but comes with a very specific set of rules.
+                </p>
+                <div class="archive-player">
+                    <div id="buzzsprout-player-18190626"></div><script src="https://www.buzzsprout.com/2518633/episodes/18190626-epsiode-9-fiver-pitch.js?container_id=buzzsprout-player-18190626&player=small" type="text/javascript" charset="utf-8"></script>
+                </div>
+            </div>
+            
+            <div id="ep10" class="episode-entry">
+                <h2 class="episode-title-text">Episode 10: The Breaking Point</h2>
+                <p class="episode-summary">
+                    Supplies are low and Malik is fading, pushing the group’s tension to a breaking point. Rue wakes to a disorienting new reality where the rules of existence have changed, isolating her in a shifting nightmare.
+                </p>
+                <div class="archive-player">
+                    <div id="buzzsprout-player-18265812"></div><script src="https://www.buzzsprout.com/2518633/episodes/18265812-episode-10-the-breaking-point.js?container_id=buzzsprout-player-18265812&player=small" type="text/javascript" charset="utf-8"></script>
+                </div>
+            </div>
+
+        </div>
+
+        <p style="text-align: center; margin-top: 50px; color: var(--text-muted);">
+            Need the raw RSS Feed? Click <a href="https://feeds.buzzsprout.com/2518633.rss" style="color: var(--accent-color);">here</a>.
+        </p>
+
+    </div>
+</body>
+</html>
